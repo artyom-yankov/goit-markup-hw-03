@@ -1,0 +1,229 @@
+:root{
+    --body-background-color: #FFFFFF;
+    --footer-background-color: #2F303A;
+    --main-backgraund-color: #e5e5e5;
+    --text-wite-color: #FFFFFF;
+    --text-grey-color: #757575;
+    --text-black-color: #212121;
+    --buton-color: #F5F4FA;
+    --hover-text-color: #2196f3;
+   } 
+
+   /*общие*/
+a{
+    text-decoration: none;
+   }
+li{
+    list-style: none;
+   }
+.head{
+    color: var(--text-black-color);
+    background-color: var(--body-background-color);
+   }
+body{
+    font-family: Roboto;
+   }
+
+   /*шапка*/
+.logo {
+   font-family: Raleway;
+   font-size: 26px;
+   line-height: 31px;
+   letter-spacing: 0.03em;
+   color:#212121;
+   font-weight: 700;
+}
+.logo-web{
+    color: #2196f3;
+}
+
+.web-link a{
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color :#212121;
+text-decoration: none;
+}
+
+.web-link a:hover,
+.web-link a:focus {
+ color: var(--hover-text-color);
+}
+
+.Mail-tel a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color:#757575;
+}
+.Mail-tel a:hover,
+.Mail-tel a:focus {
+ color: var(--hover-text-color);
+}
+
+.h1 {
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.header-link {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+   border-radius: 4px;
+  font-family: inherit;
+  background: var(--hover-text-color);
+  color: var(--text-wite-color);
+}
+
+.main-section {
+background: #2F303A;
+}
+/*service*/
+.h3 {
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+
+.service {
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+/* we do*/
+
+.we-do {
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+/*team*/
+
+.title-team {
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.cards-of-team {
+text-align: center;
+}
+
+.igor {
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.oliga {
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.03em;
+text-align: center;
+color: #212121;
+}
+
+
+.nikolai {
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.03em;
+text-align: center;
+color: #212121;
+}
+
+.mihail {
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.03em;
+text-align: center;
+color: #212121;
+}
+
+
+
+.his-job {
+font-weight: 400;
+color: #757575;
+}
+
+/*address*/
+footer {
+    background: #2F303A;
+}
+
+.logo-f {
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color:#FFFFFF;
+    font-weight: 700;
+ }
+ .logo-web-f {
+     color: #2196f3;
+ }
+
+
+.address {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px; 
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.contacts a{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+ 
+/*portfolio*/
+
+.work-cards {
+font-weight: bold;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: #212121;
+}
+
+.do {
+font-weight: 400;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--hover-text-color);
+  color: var(--text-wite-color);
