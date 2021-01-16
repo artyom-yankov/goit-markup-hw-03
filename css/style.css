@@ -22,8 +22,12 @@ li{
    }
 body{
     font-family: Roboto;
+    width: 1600px;
    }
 
+.head {
+    border-bottom: 1px solid #ececec;
+   }
    /*шапка*/
 .logo {
    font-family: Raleway;
@@ -32,11 +36,18 @@ body{
    letter-spacing: 0.03em;
    color:#212121;
    font-weight: 700;
+   display: flex;
+   margin-right: 93px;
+   margin-top:24px;
+   margin-bottom:25px;
 }
 .logo-web{
     color: #2196f3;
 }
 
+.web-link {
+    display: flex;
+}
 .web-link a{
 font-weight: 500;
 font-size: 14px;
@@ -49,6 +60,10 @@ text-decoration: none;
 .web-link a:hover,
 .web-link a:focus {
  color: var(--hover-text-color);
+}
+
+.Mail-tel {
+    display: flex;
 }
 
 .Mail-tel a{
@@ -209,6 +224,23 @@ footer {
  
 /*portfolio*/
 
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;  
+    padding-left: 15px;
+    padding-right: 15px;
+  }  
+
+.head > .container {
+    display: flex;
+    align-items: center;
+}
+
+footer > .container {
+    display: flex;
+    align-items: center;
+}
 .work-cards {
 font-weight: bold;
 font-size: 18px;
@@ -223,7 +255,40 @@ letter-spacing: 0.03em;
 color: #757575;
 }
 
+a,ul,li,p,h1,h2,h3,h4{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+nav {
+    display: flex;
+
+}
 .button:hover,
 .button:focus {
   background-color: var(--hover-text-color);
   color: var(--text-wite-color);
+}
+
+
+nav > ul.web-link > li > a {
+
+    margin-right:50px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+}
+ul.Mail-tel {
+    margin-right: 0px;
+    float: right;
+}
+ul.Mail-tel >li > a {
+
+    margin-left: 0px;
+    margin-right: 50px;
+    
+}
