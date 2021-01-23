@@ -45,12 +45,6 @@
     background-color: var(--body-background-color);
    }
    
-   body{
-    margin: auto;
-    width: 1600px;
-    font-family: Roboto;
-   }
-   
    .head > .conteiner {
      display: flex;
      align-items: center;
@@ -391,7 +385,7 @@
      font-style: normal;
      font-weight: 400;
      font-size: 14px;
-     line-height: 24px;
+     line-height: 16px;
      letter-spacing: 0.03em;
      color: var(--text-wite-color)
    }
@@ -401,7 +395,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 30px;
     letter-spacing: 0.03em;
    
     color: rgba(255, 255, 255, 0.6);
