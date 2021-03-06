@@ -9,7 +9,7 @@
     --hover-text-color: #2196f3;
    } 
    
-   /*общие*/
+    /*общие<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
    .conteiner {
      font-family: Roboto;
      width: 1200px;
@@ -19,7 +19,7 @@
      padding-right: 15px;
    }
    
-   a,ul,li,p,h1,h2,h3,h4{
+   a,ul,li,p,h1,h2,h3,h4,h5,h6{
      margin-top: 0;
      margin-bottom: 0;
      padding-left: 0;
@@ -35,7 +35,6 @@
    a{
     text-decoration: none;
    }
-   
    
    li{
     list-style: none;
@@ -54,18 +53,19 @@
    .head {
     border-bottom: 1px solid #ececec;
    }
-   /*логотип*/
-   
-   .logo{
-     font-family: Raleway;
+   /*/общие>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+   /*шапка<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+   .logo {
+    font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--dark-color);
     color: var(--text-black-color);
-   }
-   
+  
+ }
    .logo {
      display: flex;
    }
@@ -77,8 +77,7 @@
    .logo-web{
     color: var(--hover-text-color);
    }
-   
-   /*контакты*/
+
    .web-link {
      display: flex;
    }
@@ -92,7 +91,7 @@
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--text-black-color);
     text-decoration: none;
    }
    
@@ -114,9 +113,7 @@
    .header-link a:focus{
     color: var(--hover-text-color);
    }
-   
-   /*линки*/
-   
+
    .header-link {
      display: flex;
      padding-top: 32px;
@@ -127,8 +124,10 @@
    .header-link > li:not(:last-child) {
      margin-right: 50px;
     }
-   
-   /*решение*/
+    /*/шапка>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+  
+  
+    /*Герой<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
    .bbc{
     text-align: center;
     padding-top: 200px; 
@@ -158,10 +157,7 @@
      text-align: center;
      text-decoration: none;
      
-     padding-top: 10px;
-     padding-right: 32px;
-     padding-bottom: 10px;
-     padding-left: 32px;
+     padding: 10px 32px;
      
      cursor: pointer;
      border: transparent; 
@@ -176,8 +172,8 @@
      color: var(--text-wite-color);
    
    }
-   
-   /*лозунги*/
+    
+    /*описание сервиса<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
    .features {
      padding-bottom: 94px;
      padding-top: 94px;
@@ -224,14 +220,15 @@
      letter-spacing: 0.03em;
     color: var(--text-grey-color)
    }
-   
-   /*чем занимаемся*/
+    /*описание сервиса>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+    /* we do<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
    
    .waht-doing {
     margin-bottom: 50px;
    
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.66;
     text-align: center;
     letter-spacing: 0.03em;
    
@@ -270,8 +267,9 @@
    .img {
      display: block;
    }
+    /*/ we do>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
    
-   /*команда*/
+    /*team<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
    
    .team h2{
     margin-bottom: 50px;
@@ -346,10 +344,9 @@
      letter-spacing: 0.03em;
      color: var(--primeri-text-color);
    }
-   
-   /*подвад*/
-   
-   
+    /*/team>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+    /*address<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
    .footer{
     padding-top: 60px;
     padding-bottom: 60px;
@@ -369,7 +366,7 @@
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
     letter-spacing: 0.03em; 
     color: var(--text-wite-color);
    }
@@ -386,7 +383,7 @@
      font-style: normal;
      font-weight: 400;
      font-size: 14px;
-     line-height: 16px;
+     line-height: 1.14;
      letter-spacing: 0.03em;
      color: var(--text-wite-color)
    }
@@ -396,7 +393,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 30px;
+    line-height: 2.14;
     letter-spacing: 0.03em;
    
     color: rgba(255, 255, 255, 0.6);
@@ -406,9 +403,13 @@
    .footer-link a:focus{
     color: var(--hover-text-color)
    }
+  /*address<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
    
    /*Портфолио*/
-   /*кнопки*/
+
+
+   /*кнопки<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
    
    .projects {
      padding-top: 94px;
@@ -424,8 +425,9 @@
    .conteiner-ul > .portfolio-button-li:not(:last-child) {
      margin-right: 8px;
    }
+   /*кнопки>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
    
-   /*проэкты*/
+   /*проэкты>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
    .button-portfolio {
      padding: 6px 22px;
      font-weight: 500;
@@ -493,7 +495,7 @@
    
    .projects-view-p{
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--text-grey-color);
    }
@@ -504,8 +506,11 @@
    }
    
    .projects-div {
-     padding-top: 20px;
+    /* padding-top: 20px;
      padding-left: 24px;
      padding-right: 24px;
      padding-bottom: 20px;
+     */
+     padding: 20px 24px;
    }
+      /*проэкты<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
